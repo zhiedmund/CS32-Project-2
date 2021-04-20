@@ -117,6 +117,7 @@ bool Set::insert(const ItemType& value)
     item->m_next->m_prev = item;
     item->m_prev->m_next = item;
     m_size++;
+    
     return true;
 }
 
