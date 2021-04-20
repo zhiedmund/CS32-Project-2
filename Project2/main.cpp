@@ -8,6 +8,7 @@
 #include <iostream>
 #include "Set.h"
 #include <type_traits>
+#include <cassert>
 using namespace std;
 
 #define CHECKTYPE(f, t) { auto p = static_cast<t>(f); (void)p; }
